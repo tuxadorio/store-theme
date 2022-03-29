@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 2022-03-29
+
 ## [4.4.2] - 2021-07-02
 ### Fixed
 - Wrong condition subject being used in `condition-layout` example.
