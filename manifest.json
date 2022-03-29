@@ -1,7 +1,7 @@
 {
   "vendor": "plexopartneruy",
   "name": "plexo-theme",
-  "version": "4.4.2",
+  "version": "4.4.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
