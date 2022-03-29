@@ -4,104 +4,169 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-almacenamiento",
+      "menu-item#category-perifericos"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-almacenamiento": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-almacenamiento",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/almacenamiento/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Almacenamiento",
+        "text": "Almacenamiento"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-almacenamiento"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-almacenamiento": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-almacenamiento"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-almacenamiento": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-almacenamiento-discos-externos",
+      "menu-item#category-almacenamiento-discos-internos",
+      "menu-item#category-almacenamiento-opticos"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-almacenamiento-discos-externos": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-almacenamiento-discos-externos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/almacenamiento/discos-externos/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Discos Externos",
+        "text": "Discos Externos"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-almacenamiento-discos-internos": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-almacenamiento-discos-internos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/almacenamiento/discos-internos/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Discos Internos",
+        "text": "Discos Internos"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-almacenamiento-opticos": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-almacenamiento-opticos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/almacenamiento/opticos/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Opticos",
+        "text": "Opticos"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-perifericos": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-perifericos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/perifericos/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Periféricos",
+        "text": "Periféricos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-perifericos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-perifericos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-perifericos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-perifericos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-perifericos-auriculares",
+      "menu-item#category-perifericos-mouse",
+      "menu-item#category-perifericos-teclados"
+    ]
+  },
+  "menu-item#category-perifericos-auriculares": {
+    "props": {
+      "id": "menu-item-category-perifericos-auriculares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perifericos/auriculares/",
+        "noFollow": false,
+        "tagTitle": "Auriculares",
+        "text": "Auriculares"
+      }
+    }
+  },
+  "menu-item#category-perifericos-mouse": {
+    "props": {
+      "id": "menu-item-category-perifericos-mouse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perifericos/mouse/",
+        "noFollow": false,
+        "tagTitle": "Mouse",
+        "text": "Mouse"
+      }
+    }
+  },
+  "menu-item#category-perifericos-teclados": {
+    "props": {
+      "id": "menu-item-category-perifericos-teclados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perifericos/teclados/",
+        "noFollow": false,
+        "tagTitle": "Teclados",
+        "text": "Teclados"
       }
     }
   },
